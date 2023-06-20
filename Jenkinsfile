@@ -10,7 +10,7 @@ pipeline {
         }
       steps {
         container(name: 'kaniko') {
-          sh "echo 'Connected to Git.'
+          sh "echo 'Connected to Git.'"
         }
       }
     }
